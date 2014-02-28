@@ -1,0 +1,14 @@
+* { border: 1px solid #000; }
+
+/* General */
+ul { padding: 0; }
+ul > li { position: relative; width: 200px; list-style: none; padding: 10px 0; }
+li ul {display: none; }
+li:hover ul { display: block; }
+
+/* Vertical */
+ul.vertical li ul { position: absolute; top: 0; left: 100%; }
+
+/* Horizontal */
+ul.horizontal > li { width: 100px; margin: 0 5px; display: inline-block; }
+ul.horizontal li ul { position: absolute; top: 100%; left: 0; }

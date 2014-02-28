@@ -1,0 +1,173 @@
+* {
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #f7f7f7;
+}
+
+body {
+    font: 14pt/1.48em "Source Sans Pro", sans-serif;
+    color: #464646;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    margin: 0;
+}
+
+table {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-top: 0;
+}
+
+h1, .h1 {
+    font-size: 2em; /* 28pt/14pt */
+    line-height: 1.08em; /* 30.24pt/28pt */
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+/* Textos */
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
+.uppercase { text-transform: uppercase; }
+
+.normal { font-weight: normal; }
+.small { font-size: 0.8em; }
+.big { font-size: 1.5em; }
+.list { list-style: none; padding: 0; }
+.center { text-align: center; }
+.list p { margin: 0; }
+.list li { margin: 20px 0; }
+.list li:first-child { padding-top: 0; }
+.list li h4 { color: #03f; font-style: italic; }
+.list-blue li {
+    background: transparent url("../img/blue.png") no-repeat 0 10px;
+    padding-left: 20px;
+}
+
+.price { font-size: 1.4em; font-weight: bold; }
+
+
+/* Colores */
+.txt-red { color: #F00; }
+.txt-blue { color: #03f; }
+.bg-white { background-color: #FFF; }
+
+/* Botones */
+.btn {
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+    margin: auto 5px;
+
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+
+    border-radius: 3px;
+    box-shadow: 0 1px 4px #cdcdcd;
+    background-image: linear-gradient(to bottom, #999, #CCC);
+}
+
+.btn-big {
+    padding: 10px inherit;
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+}
+
+.btn-red {
+    background-image: linear-gradient(to bottom, #f74040 80%, #d33535);
+}
+
+/* Layout */
+.wrapper {
+    width: 990px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.bg-gray:first-child .wrapper {
+    padding-bottom: 0;
+}
+
+.description {
+    padding-left: 20px;
+}
+
+.wrapper:before, .wrapper:after,
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.wrapper:after,
+.clearfix:after {
+    clear: both;
+}
+
+.fleft { float: left; }
+.col-25 { width: 25%; }
+.col-50 { width: 50%; }
+.col-75 { width: 75%; }
+
+.well {
+    background-color:#FFF;
+    padding: 15px;
+    box-shadow: 0 0 5px #cdcdcd;
+}
+
+.well p {
+    margin: 0;
+}
+
+/* Cabecera */
+.breadcrumb {
+    text-transform: uppercase;
+    list-style: none;
+    padding: 0;
+}
+
+.breadcrumb li {
+    display: inline-block;
+}
+
+.breadcrumb li:after {
+    content: "/";
+}
+
+.breadcrumb li.actual:after {
+    content: "";
+}
+
+.breadcrumb li:last-child:after {
+    content: "";
+}
+
+.breadcrumb a {
+    margin-right: 5px;
+}
+
+
+/* TODO */
+/*
+    Botones
+    Tabla
+    Balines
+    Pie en línea
+*/
