@@ -1,4 +1,6 @@
 $(function() {
+    'use strict';
+
     var $contenidos = $('#contenidos');
     var $estado     = $('#estado');
     var $estados    = $('#estados');

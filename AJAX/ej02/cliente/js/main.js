@@ -1,4 +1,6 @@
 $(function(){
+    'use strict';
+
     var noticias = [],
         intervalo = null,
         actual = 0,
